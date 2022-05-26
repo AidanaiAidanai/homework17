@@ -44,6 +44,9 @@ public abstract class Domesticanimals {
     public void setNickName(String nickName) {
         this.nickName = nickName;
     }
+    void info(){
+        System.out.println(getAge()+getWeight()+getGender()+getNickName());
+    }
 
     @Override
     public String toString() {
